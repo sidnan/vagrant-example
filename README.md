@@ -27,6 +27,17 @@ Can set up a file - describe the type of machine, the box, and the way to access
 This helps to provide fast development, maintainability, and portability.
 
 
+# Few main points on Vagrant file
+
+* Vagrant box config - name of the vagrant box that will be loaded as virtual machine
+![box config](https://github.com/sidnan/vagrant-example/blob/master/images/box-config.png)
+* Folders to sync between local and remote machine
+![folder sync](https://github.com/sidnan/vagrant-example/blob/master/images/folder-sync.png)
+* Sample init script that execute on vagrant up
+![init script](https://github.com/sidnan/vagrant-example/blob/master/images/init-script.png)
+* Config to invoke init script in the vagrantfile
+![invoke init](https://github.com/sidnan/vagrant-example/blob/master/images/invoke-init.png)
+
 
 
 # Steps to vagrant up box
